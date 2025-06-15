@@ -1,0 +1,33 @@
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #111;
+  padding: 2rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+header, main {
+  max-width: 800px;
+  margin: auto;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark a {
+  color: #90caf9;
+}
